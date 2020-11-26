@@ -58,7 +58,7 @@ npx stylelint "\*_/_.{css,scss}"
 
 ## Deployment
 
-Deployment in this [github page](https://aliciapaz.github.io/nyork-article/)
+Deployment in this [github page](https://aliciapaz.github.io/nyt-article/)
 ## Authors
 
 👤 **Alicia Rojas**
