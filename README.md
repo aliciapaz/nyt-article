@@ -44,20 +44,16 @@ You can check the page from your browser with a live server extension for your t
 
 ### Webhint:
 
-    Run:
-    ```
-
+Run
+```
 npx hint .
-
 ```
 
 ### Stylint:
 
-Run:
+Run
 ```
-
 npx stylelint "\*_/_.{css,scss}"
-
 ```
 
 ## Deployment
