@@ -104,20 +104,25 @@ p {
 }
 
 /* navbar */
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
 #top-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 150px;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
+  padding: 0 15px;
   background-color: #fff;
-  width: 100%;
-  border-bottom: 1px solid #e2e2e2;
+  width: 1605px;
+  margin: auto;
   height: 50px;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 
 #left-nav {
@@ -156,6 +161,40 @@ main {
 #main-photo {
   width: 1200px;
   margin: 0 auto 2rem auto;
+}
+
+.container2 {
+  width: 1200px;
+  margin: auto;
+}
+
+#editor-aside {
+  position: relative;
+  top: 35rem;
+  float: right;
+  width: 210px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.editor-aside {
+  margin-bottom: 10px;
+}
+.editor-aside img {
+  width: 70px;
+}
+
+.editor-aside a {
+  display: flex;
+}
+
+.editor-aside a p {
+  width: 123px;
+  margin: 10px 5px 5px 5px;
+}
+
+#editor-title {
+  font-weight: 700;
 }
 
 #author-date {
