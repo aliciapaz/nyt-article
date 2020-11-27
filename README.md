@@ -38,7 +38,7 @@ npm install
 
 ## Usage
 
-You can check the page from your browser with a live server extension for your text editor or going to the github page [github page](https://aliciapaz.github.io/nyork-article/)
+You can check the page from your browser with a live server extension for your text editor or going to the [demo page](https://rawcdn.githack.com/aliciapaz/nyt-article/c4acd60274eef7af942f3f549a4d3a005356cf3f/index.html)
 
 ## Run tests
 
