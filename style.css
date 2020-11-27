@@ -109,6 +109,7 @@ header {
   left: 0;
   border-bottom: 1px solid #e2e2e2;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 
 #top-menu {
@@ -223,6 +224,7 @@ main {
 #comments-social {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 #comments-btn {
@@ -276,6 +278,55 @@ main {
 
 #video {
   margin-bottom: 25px;
+}
+
+/* Form */
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 600px;
+  padding: 19px;
+  font-size: 14px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.textarea textarea {
+  padding: 6px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid rgba(102, 102, 102, 0.3);
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox label {
+  margin-left: 10px;
+}
+
+.radio div label {
+  margin-right: 20px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.submit {
+  width: 300px;
+  margin: auto;
 }
 
 /* bottom section */
