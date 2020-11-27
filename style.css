@@ -74,10 +74,6 @@ a {
   padding: 11px 8px;
 }
 
-.btn:hover {
-  background-color: rgb(50, 104, 145);
-}
-
 figcaption {
   font-size: 0.9rem;
   line-height: 1.25rem;
@@ -132,20 +128,16 @@ header {
   align-items: center;
 }
 
-#nav-buttons a {
+.nav-buttons a {
   font-size: 16px;
   padding: 0 10px;
 }
 
-#section-name {
+.section-name {
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
   font-family: helvetica, arial, sans-serif;
-}
-
-#section-name:hover {
-  text-decoration: underline;
 }
 
 .logo {
@@ -169,32 +161,6 @@ main {
   margin: auto;
 }
 
-#editor-aside {
-  position: relative;
-  top: 35rem;
-  float: right;
-  width: 210px;
-  font-size: 12px;
-  line-height: 17px;
-}
-
-.editor-aside {
-  margin-bottom: 10px;
-}
-
-.editor-aside img {
-  width: 70px;
-}
-
-.editor-aside a {
-  display: flex;
-}
-
-.editor-aside a p {
-  width: 123px;
-  margin: 10px 5px 5px 5px;
-}
-
 #editor-title {
   font-weight: 700;
 }
@@ -203,18 +169,14 @@ main {
   margin-bottom: 2rem;
 }
 
-#author {
+.author {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
-#author a {
+.author a {
   text-decoration: underline;
-}
-
-#author a:hover {
-  text-decoration: none;
 }
 
 #date-social {
@@ -239,35 +201,23 @@ main {
   padding: 0 7px;
 }
 
-.bkg-icon:hover {
-  background-color: #fff;
-}
-
 .no-bkg-icon {
   color: #333;
-}
-
-.no-bkg-icon:hover {
-  color: #eee;
 }
 
 #date {
   font-size: 0.8rem;
 }
 
-#foot-note {
+.foot-note {
   font-size: 0.7rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
 }
 
-#foot-note a {
+.foot-note a {
   text-decoration: underline;
   color: rgb(102, 102, 102);
-}
-
-#foot-note a:hover {
-  text-decoration: none;
 }
 
 #comments-social {
@@ -280,13 +230,13 @@ main {
 }
 
 /* inflation theory figure */
-#theory-image {
+.theory-image {
   width: 945px;
   margin: auto;
   position: relative;
 }
 
-#inflation-image-container {
+.inflation-image-container {
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -295,7 +245,7 @@ main {
   column-gap: 15px;
 }
 
-#theory-image-head p {
+.theory-image-head p {
   font-size: 1rem;
   color: #666;
   line-height: 1.12rem;
@@ -344,13 +294,13 @@ aside {
   margin-top: 2rem;
 }
 
-#newsletters-title {
+.newsletters-title {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-#newsletters-title a {
+.newsletters-title a {
   font-size: 0.8rem;
   color: rgb(102, 102, 102);
 }
@@ -439,10 +389,6 @@ aside {
   padding: 15px 0;
 }
 
-.popular-link:hover {
-  color: rgb(102, 102, 102);
-}
-
 .article-caption {
   text-align: right;
   font-size: 0.7rem;
@@ -461,6 +407,34 @@ aside {
   font-size: 12px;
   color: #999;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* editor aside */
+
+.editor-aside-container {
+  position: relative;
+  top: 35rem;
+  float: right;
+  width: 210px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.editor-aside {
+  margin-bottom: 10px;
+}
+
+.editor-aside img {
+  width: 70px;
+}
+
+.editor-aside a {
+  display: flex;
+}
+
+.editor-aside a p {
+  width: 123px;
+  margin: 10px 5px 5px 5px;
 }
 
 /* Bottom Menu */
@@ -497,11 +471,7 @@ aside {
   font-size: 14px;
 }
 
-.section-links li a:hover {
-  text-decoration: underline;
-}
-
-#last-column {
+.last-column {
   border-left: 1px solid rgb(226, 226, 226);
   padding-left: 15px;
 }
@@ -513,10 +483,6 @@ aside {
   margin-bottom: 1rem;
 }
 
-#last-column a:hover {
-  text-decoration: underline;
-}
-
 .special-items {
   font-size: 11px;
   font-weight: 500;
@@ -525,7 +491,7 @@ aside {
   padding-top: 0.5rem;
 }
 
-#footer-links {
+.footer-links {
   display: flex;
   width: 60%;
   justify-content: space-between;
@@ -536,6 +502,44 @@ aside {
   border-top: 1px solid rgb(226, 226, 226);
 }
 
-#footer-links a:hover {
+/* hover */
+
+.no-bkg-icon:hover {
+  color: #eee;
+}
+
+.footer-links a:hover {
   text-decoration: underline;
+}
+
+.author a:hover {
+  text-decoration: none;
+}
+
+.foot-note a:hover {
+  text-decoration: none;
+}
+
+.last-column a:hover {
+  text-decoration: underline;
+}
+
+.section-links li a:hover {
+  text-decoration: underline;
+}
+
+.btn:hover {
+  background-color: rgb(50, 104, 145);
+}
+
+.section-name:hover {
+  text-decoration: underline;
+}
+
+.bkg-icon:hover {
+  background-color: #fff;
+}
+
+.popular-link:hover {
+  color: rgb(102, 102, 102);
 }
