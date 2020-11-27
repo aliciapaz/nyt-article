@@ -384,7 +384,7 @@ aside {
   margin-left: 30px;
 }
 
-#link-list li {
+.link-list li {
   border-top: 1px solid rgb(226, 226, 226);
   padding: 15px 0;
 }
@@ -542,4 +542,35 @@ aside {
 
 .popular-link:hover {
   color: rgb(102, 102, 102);
+}
+
+/* form */
+
+form {
+  margin: 1.5rem auto;
+}
+
+.comment-form {
+  width: 600px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+.comment-form li {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.text-label {
+  display: inline-block;
+  width: 100px;
+}
+
+.text-fields {
+  width: 80%;
+}
+
+.send-btn {
+  width: 150px;
 }
