@@ -12,10 +12,6 @@ The website has the main article, a top navigation bar, a bottom section with li
 - HTML5
 - CSS
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 ## Getting Started
 
 Use your main live server to start live viewing the index.html file on your web browser.
